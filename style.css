@@ -9,17 +9,15 @@
 
 body{
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 100%;
     background-image: url("images/background.html");
     background-size: cover;
-   
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 .card{
-    margin: auto;
     border: solid;
     width: 90%;
     max-width: 400px;
@@ -65,4 +63,3 @@ font-size: 1.1rem;
     cursor: pointer;
     background-color: white;
 }
-
