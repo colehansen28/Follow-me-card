@@ -9,17 +9,16 @@
 
 body{
     min-height: 100vh;
-    min-width: 100%;
     background-image: url("images/background.html");
     background-size: cover;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 
 }
 .card{
     border: solid;
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     text-align: center;
     display: flex;
